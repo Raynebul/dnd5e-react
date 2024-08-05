@@ -1,0 +1,145 @@
+{
+  "border_color": "aqua",
+  "name": "Урон и атака",
+  "description": "",
+  "data": [
+    {
+      "name": "Премущество и помеха",
+      "icon": "./damage-icons/yin-yang.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Критическое попадание",
+      "icon": "./damage-icons/dice-twenty-faces-twenty.svg",
+      "shortinfo": "20 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Критический промах",
+      "icon": "./damage-icons/dice-twenty-faces-one.svg",
+      "shortinfo": "1 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+
+    {
+      "name": "Сопротивление",
+      "icon": "./damage-icons/armor-upgrade.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Уязвимость",
+      "icon": "./damage-icons/armor-downgrade.svg",
+      "shortinfo": "20 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Падение",
+      "icon": "./damage-icons/falling.svg",
+      "shortinfo": "1 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+
+    {
+      "name": "Режущий",
+      "icon": "./damage-icons/blade-drag.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Колющий",
+      "icon": "./damage-icons/pierced-body.svg",
+      "shortinfo": "20 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Дробящий",
+      "icon": "./damage-icons/spiked-bat.svg",
+      "shortinfo": "1 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+
+    {
+      "name": "Звуковой",
+      "icon": "./damage-icons/sound-waves.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Излучение",
+      "icon": "./damage-icons/sun-radiations.svg",
+      "shortinfo": "20 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Кислотный",
+      "icon": "./damage-icons/chemical-bolt.svg",
+      "shortinfo": "1 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+
+    {
+      "name": "Некротический",
+      "icon": "./damage-icons/skull-bolt.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Огненный",
+      "icon": "./damage-icons/flame.svg",
+      "shortinfo": "20 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Психический",
+      "icon": "./damage-icons/psychic-waves.svg",
+      "shortinfo": "1 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+
+    {
+      "name": "Силовой",
+      "icon": "./damage-icons/ball-glow.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Холодный",
+      "icon": "./damage-icons/ice-bolt.svg",
+      "shortinfo": "20 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Электрический",
+      "icon": "./damage-icons/lightning-trio.svg",
+      "shortinfo": "1 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Ядовитый",
+      "icon": "./damage-icons/poison-gas.svg",
+      "shortinfo": "1 при броске Атаки",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    }
+  ]
+}

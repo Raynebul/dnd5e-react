@@ -1,0 +1,79 @@
+{
+  "border_color": "Orange ",
+  "name": "Движение",
+  "description": "<div className='h6 each-line'>Вы можете передвигаться в любое время вашего хода (до, после или во время действий).</div>",
+  "data": [
+    {
+      "name": "Перемещение",
+      "icon": "./moving-icons/run.svg",
+      "shortinfo": "Стоимость: 5 футов за перемещение на 5 футов",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Падение ничком",
+      "icon": "./moving-icons/falling.svg",
+      "shortinfo": "Стоимость: 0 футов (свободно)",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Прыжок в высоту",
+      "icon": "./moving-icons/leapfrog.svg",
+      "shortinfo": "Стоимость: 5 футов за 5 футов прыжка",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Труднопрохо-\nдимая местность",
+      "icon": "./moving-icons/hiking.svg",
+      "shortinfo": "Перемещение по труднопроходимой местности. Стоимость: +5 футов за 5 футов",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Лазание",
+      "icon": "./moving-icons/mountain-climbing.svg",
+      "shortinfo": " Стоимость: 10 футов за восхождение на 5 футов",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Ползание",
+      "icon": "./moving-icons/despair.svg",
+      "shortinfo": "Стоимость: 10 футов за 5 футов ползком",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Прыжок в длину",
+      "icon": "./moving-icons/jump-across.svg",
+      "shortinfo": "Стоимость: 5 футов за 5 футов прыжка",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Движение в захвате",
+      "icon": "./moving-icons/push.svg",
+      "shortinfo": "Толкание или ношение захваченного существа. Стоимость: скорость снижена вдвое",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Плавание",
+      "icon": "./moving-icons/pool-dive.svg",
+      "shortinfo": "Стоимость: 10 футов за проплытых 5 футов",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Вставание",
+      "icon": "./moving-icons/sensuousness.svg",
+      "shortinfo": "Стоимость: половина скорости перемещения",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Импровизация",
+      "icon": "./moving-icons/contortionist.svg",
+      "shortinfo": "Исполнить любое движение или трюк",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Посадка в седло и спешивание",
+      "icon": "./moving-icons/cavalry.svg",
+      "shortinfo": "Сесть или спешиться с ездового животного. Стоимость: половина скорости перемещения",
+      "description": "wdsdwd"
+    }
+  ]
+}

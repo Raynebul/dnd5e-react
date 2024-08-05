@@ -1,0 +1,29 @@
+{
+    "border_color": "GreenYellow ",
+    "name": "Бонусные действия",
+    "description": "",
+    "data": [
+      {
+        "name": "Атака второй рукой",
+        "icon": "./bonus-action-icons/crossed-swords.svg",
+        "page": "КИ, стр. 192, 194-195",
+        "shortinfo": "Атака лёгким оружием во второй руке",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Наложение заклинаний",
+        "icon": "./bonus-action-icons/fire-spell-cast.svg",
+        "page": "КИ, стр. 192",
+        "shortinfo": "Наложить заклинание с временем наложения в 1 бонусное действие",
+        "description": ""
+      },
+      {
+        "name": "Способность класса",
+        "icon": "./bonus-action-icons/teleport.svg",
+        "page": "В описании класса",
+        "shortinfo": "Некоторые способности класса используются как бонусное действие",
+        "description": ""
+      }
+    ]
+  }
+  

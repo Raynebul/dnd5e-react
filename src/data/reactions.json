@@ -1,0 +1,29 @@
+{
+    "border_color": "lime",
+    "name": "Реакции",
+    "description": "",
+    "data": [
+      {
+        "name": "Провоцированная атака",
+        "icon": "./reaction-icons/backstab.svg",
+        "shortinfo": "Провоцированная атака по противнику, покидающему вашу досягаемость",
+        "page": "КИ, стр. 195",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Подготовленная атака",
+        "icon": "./reaction-icons/sands-of-time.svg",
+        "shortinfo": "Совершить атаку реакции как часть действия Подготовки",
+        "page": "КИ, стр. 193",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+      {
+        "name": "Наложение заклинания",
+        "icon": "./reaction-icons/fire-spell-cast.svg",
+        "shortinfo": "Наложить заклинание с временем наложения в 1 реакцию",
+        "page": "КИ, стр. 192",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      }
+    ]
+  }
+  

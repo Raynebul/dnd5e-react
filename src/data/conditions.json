@@ -1,0 +1,117 @@
+{
+    "border_color": "MediumSeaGreen ",
+    "name": "Состояния",
+    "description": "",
+    "data": [
+      {
+        "name": "Бессознательный",
+        "icon": "./condition-icons/coma.svg",
+        "shortinfo": "Вы без сознания",
+        "page": "КИ, стр. 290",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Испуганный",
+        "icon": "./condition-icons/terror.svg",
+        "shortinfo": "Вы напуганы",
+        "page": "КИ, стр. 290",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+      {
+        "name": "Истощённый",
+        "icon": "./condition-icons/tired-eye.svg",
+        "shortinfo": "Вы истощены",
+        "page": "КИ, стр. 291",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+
+      {
+        "name": "Невидимый",
+        "icon": "./condition-icons/invisible.svg",
+        "shortinfo": "Вас не видно",
+        "page": "КИ, стр. 290",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Недеспособный",
+        "icon": "./condition-icons/internal-injury.svg",
+        "shortinfo": "Вы не можете действовать и реагировать",
+        "page": "КИ, стр. 290",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+      {
+        "name": "Оглохший",
+        "icon": "./condition-icons/hearing-disabled.svg",
+        "shortinfo": "Вы ничего не слышите",
+        "page": "КИ, стр. 291",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+
+      {
+        "name": "Окаменевший",
+        "icon": "./condition-icons/rock-golem.svg",
+        "shortinfo": "Вы превращены в камень",
+        "page": "КИ, стр. 290",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Опутанный",
+        "icon": "./condition-icons/fishing-net.svg",
+        "shortinfo": "Вы опутаны или связаны",
+        "page": "КИ, стр. 290",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+      {
+        "name": "Ослеплённый",
+        "icon": "./condition-icons/sight-disabled.svg",
+        "shortinfo": "Вы ничего не видите",
+        "page": "КИ, стр. 291",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+
+      {
+        "name": "Отравленный",
+        "icon": "./condition-icons/poison-gas.svg",
+        "shortinfo": "Вы отравлены",
+        "page": "КИ, стр. 290",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Очарованный",
+        "icon": "./condition-icons/smitten.svg",
+        "shortinfo": "Вы очарованны другим существом",
+        "page": "КИ, стр. 290",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+      {
+        "name": "Ошеломлённый",
+        "icon": "./condition-icons/knockout.svg",
+        "shortinfo": "Вы ошеломлены",
+        "page": "КИ, стр. 291",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+
+      {
+        "name": "Парализованный",
+        "icon": "./condition-icons/vitruvian-man.svg",
+        "shortinfo": "Вы парализованы",
+        "page": "КИ, стр. 290",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Сбитый с ног, лежащий ничком",
+        "icon": "./condition-icons/falling.svg",
+        "shortinfo": "Вы лежите на земле",
+        "page": "КИ, стр. 290",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      },
+      {
+        "name": "Схваченный",
+        "icon": "./condition-icons/frozen-body.svg",
+        "shortinfo": "Вы захвачены",
+        "page": "КИ, стр. 291",
+        "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+      }
+    ]
+  }
+  

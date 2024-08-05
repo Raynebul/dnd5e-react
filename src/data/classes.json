@@ -1,0 +1,85 @@
+{
+  "border_color": "DarkOrange ",
+  "name": "Классы",
+  "description": "<div className='h6 each-line'><div>ИСКАТЕЛИ ПРИКЛЮЧЕНИЙ — НЕОБЫЧНЫЕ существа, движимые жаждой жизненных потрясений, на которые другие никогда бы не осмелились. Это герои, вынужденные исследовать тёмные уголки мира и принимать испытания, которым большинство женщин и мужчин не смогли бы противостоять. </div><div>Класс является основным мерилом способностей вашего персонажа. Это больше чем профессия, это призвание вашего персонажа. Класс формирует ваше представление о мире и взаимодействие с ним, а также ваше отношение к другим существам и силам мультивселенной. Воин, например, может смотреть на мир прагматично, с точки зрения стратегии и манёвров, и видеть себя всего лишь пешкой в большой игре. Жрец напротив, может видеть себя в качестве усердного служителя разворачивающегося грандиозного плана божества, или назревающего конфликта между различными богами. У воина есть связи в организациях наёмников или войсках, а жрец может знать множество священников, паладинов и последователей, разделяющих его веру. </div></div>",
+  "data": [
+    {
+      "name": "Воин",
+      "icon": "./class-icons/fighter.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Плут",
+      "icon": "./class-icons/rogue.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Волшебник",
+      "icon": "./class-icons/wizard.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Бард",
+      "icon": "./class-icons/bard.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Друид",
+      "icon": "./class-icons/druid.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Следопыт",
+      "icon": "./class-icons/ranger.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Жрец",
+      "icon": "./class-icons/cleric.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Варвар",
+      "icon": "./class-icons/barbarian.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Чародей",
+      "icon": "./class-icons/sorcer.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Монах",
+      "icon": "./class-icons/monk.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Колдун",
+      "icon": "./class-icons/warlock.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Паладин",
+      "icon": "./class-icons/paladin.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Изобретатель",
+      "icon": "./class-icons/artificer.svg",
+      "shortinfo": "инфа",
+      "description": "wdsdwd"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "border_color": "gray",
+  "name": "Книги правил",
+  "description": "",
+  "data": [
+    {
+      "name": "Премущество и помеха",
+      "icon": "./rulebook-icons/book-cover.svg",
+      "shortinfo": "инфа",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Критическое попадание",
+      "icon": "./rulebook-icons/book-cover.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Критический",
+      "icon": "./rulebook-icons/book-cover.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "border_color": "DeepSkyBlue",
+    "name": "Характеристики",
+    "description": "",
+    "data": [
+      {
+        "name": "Сила",
+        "icon": "./rulebook-icons/book-cover.svg",
+        "shortinfo": "инфа",
+        "page": "КИ, стр. 197",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Ловкость",
+        "icon": "./rulebook-icons/book-cover.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Телосложение",
+        "icon": "./rulebook-icons/book-cover.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Мудрость",
+        "icon": "./rulebook-icons/book-cover.svg",
+        "shortinfo": "инфа",
+        "page": "КИ, стр. 197",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Интеллект",
+        "icon": "./rulebook-icons/book-cover.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Харизма",
+        "icon": "./rulebook-icons/book-cover.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      }
+    ]
+  }
+  
