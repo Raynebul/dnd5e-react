@@ -10,7 +10,6 @@ const svgWidth = "50px";
 function RightPanel(props) {
   const CloseCollapse = () => {
     props.close();
-    console.log(window.screen.width);
   };
 
   console.log(props.data)
@@ -48,13 +47,16 @@ function RightPanel(props) {
       <div className="p-0 ms-0 position-fixed top-25 end-0 me-3">
         <Collapse
           in={props.open}
-          style={{ width: String(window.screen.width / 2) + "px" }}
-          className="border rounded-2 border-secondary "
+
+          style={{ width: String(window.screen.width / 2) + "px", maxHeight: String(window.screen.height / 1.4) + "px"}}
+          className="border rounded-2 border-secondary"
         >
           <div
             id="example-collapse-text"
             data-bs-theme="dark"
-            className="text-light"
+            data-bs-spy="scroll"
+            className="text-light overflow-auto"
+            style={{height: "100px"}}
           >
             <div className="d-flex ms-3 mt-3 me-3">
               <div>
@@ -72,7 +74,7 @@ function RightPanel(props) {
             <div className="mt-2 mx-3 h6 text-muted">
               {props.data["shortinfo"]}
             </div>
-            <div className="mt-2 mx-3 mb-3">{parse(props.data["description"])}</div>
+            <div className="mt-2 mx-3 mb-3 overflow-auto">{parse(props.data["description"])}</div>
           </div>
         </Collapse>
       </div>

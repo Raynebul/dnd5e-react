@@ -11,9 +11,18 @@ const svgWidth = "50px";
 
 function Block(props) {
   const [isHover, setIsHover] = useState(false);
-
+  //const [isChosen, setIsChosen] = useState(false);
   const OpenCollapse = () => {
-    props.action(props.object);
+    if(props.chosenInfo["name"]!==props.object["name"])
+    {
+      props.action(props.object);
+    }
+    else
+    {
+      props.action({name: "", icons: "", description: ""});
+    }
+    //setIsChosen(!isChosen);
+    
   };
 
   const handleMouseEnter = () => {
@@ -27,13 +36,9 @@ function Block(props) {
     width: colWidth,
     cursor: "pointer",
     border: "solid " + props.color,
-    background: isHover ? "#404c54 !important" : "transparent",
   };
-  //./src/assets/action-icons/pointy-sword.svg
   const svgStyle = {
     backgroundImage: "url(" + props.object.icon + ")",
-    //backgroundImage: "url(./src/assets/action-icons/pointy-sword.svg)",
-    //backgroundImage: "url(./vite.svg)",
     backgroundRepeat: "no-repeat",
     height: svgHeight,
     width: svgWidth,
@@ -50,6 +55,7 @@ function Block(props) {
     background: "#404c54",
     border: "solid " + props.color,
   };
+  const btnClass= (props.chosenInfo["name"]===props.object["name"]) ? "w-100 btn btn-dark btn-dark-hovered p-0" : "w-100 btn btn-dark p-0";
   return (
     <>
       <Col
@@ -58,7 +64,7 @@ function Block(props) {
       >
         {/* <Image fill='red' src={object.icon} style={{color: "red"}} rounded />*/}
         <button
-          className="w-100 btn btn-dark p-0"
+          className={btnClass}
           onClick={OpenCollapse}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}

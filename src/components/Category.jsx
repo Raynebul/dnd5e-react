@@ -15,6 +15,7 @@ function Category(props) {
   /*const [category, setCategory] = useState(0);*/
   const [open, setOpen] = useState(false);
   const [isHover, setIsHover] = useState(false);
+  const [isChosen, setIsChosen] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHover(true);
@@ -23,6 +24,10 @@ function Category(props) {
     setIsHover(false);
   };
 
+  const OpenCategory = () => {
+    setIsChosen(!isChosen)
+    setOpen(!open)
+  }
   const OpenCollapse = (data) => {
     props.action(data);
 }
@@ -32,7 +37,8 @@ function Category(props) {
   const listItemStyle = {
     borderColor: props.item.border_color,
     transition: "0.3s",
-    background: isHover
+    cursor: "pointer",
+    background: (isHover || isChosen)
       ? "linear-gradient(transparent, " + props.item.border_color + ")"
       : "transparent",
   };
@@ -47,7 +53,7 @@ function Category(props) {
   return (
     <>
       <ListGroup.Item
-        onClick={() => setOpen(!open)}
+        onClick={OpenCategory}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         aria-controls="example-collapse-text"
@@ -64,7 +70,7 @@ function Category(props) {
           <Container>
             <Row xs="auto">
               {props.item.data.map((object, index) => (
-                <Block action={OpenCollapse} object={object} key={index} color={props.item.border_color}></Block>
+                <Block action={OpenCollapse} object={object} key={index} color={props.item.border_color} chosenInfo={props.chosenInfo}></Block>
               ))}
             </Row>
           </Container>

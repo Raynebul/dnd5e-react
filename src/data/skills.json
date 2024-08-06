@@ -1,0 +1,135 @@
+{
+    "border_color": "DodgerBlue",
+    "name": "Навыки",
+    "description": "",
+    "data": [
+      {
+        "name": "Атлетика",
+        "icon": "./skill-icons/strong.svg",
+        "shortinfo": "инфа",
+        "page": "КИ, стр. 197",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Акробатика",
+        "icon": "./skill-icons/body-balance.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Ловкость рук",
+        "icon": "./skill-icons/robber-hand.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Скрытность",
+        "icon": "./skill-icons/ninja-mask.svg",
+        "shortinfo": "инфа",
+        "page": "КИ, стр. 197",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Магия",
+        "icon": "./skill-icons/magic-palm.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "История",
+        "icon": "./skill-icons/book-cover.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Анализ",
+        "icon": "./skill-icons/magnifying-glass.svg",
+        "shortinfo": "инфа",
+        "page": "КИ, стр. 197",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Природа",
+        "icon": "./skill-icons/agave.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Религия",
+        "icon": "./skill-icons/holy-grail.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Уход за животными",
+        "icon": "./skill-icons/sitting-dog.svg",
+        "shortinfo": "инфа",
+        "page": "КИ, стр. 197",
+        "description": "wdsdwd"
+      },
+      {
+        "name": "Проницательность",
+        "icon": "./skill-icons/idea.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Медицина",
+        "icon": "./skill-icons/bandage-roll.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Внимательность",
+        "icon": "./skill-icons/semi-closed-eye.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Выживание",
+        "icon": "./skill-icons/footprint.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+
+      {
+        "name": "Обман",
+        "icon": "./skill-icons/convince.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Запугивание",
+        "icon": "./skill-icons/enrage.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Выступление",
+        "icon": "./skill-icons/drama-masks.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      },
+      {
+        "name": "Убеждение",
+        "icon": "./skill-icons/discussion.svg",
+        "shortinfo": "Tasha's Cauldron of Everything",
+        "page": "КИ, стр. 197",
+        "description": ""
+      }
+    ]
+  }
+  
