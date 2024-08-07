@@ -25,12 +25,12 @@ function Category(props) {
   };
 
   const OpenCategory = () => {
-    setIsChosen(!isChosen)
-    setOpen(!open)
-  }
+    setIsChosen(!isChosen);
+    setOpen(!open);
+  };
   const OpenCollapse = (data) => {
     props.action(data);
-}
+  };
 
   const fadein = "{from {opacity: 0;}to {opacity: 100;}}";
 
@@ -38,9 +38,10 @@ function Category(props) {
     borderColor: props.item.border_color,
     transition: "0.3s",
     cursor: "pointer",
-    background: (isHover || isChosen)
-      ? "linear-gradient(transparent, " + props.item.border_color + ")"
-      : "transparent",
+    background:
+      isHover || isChosen
+        ? "linear-gradient(transparent, " + props.item.border_color + ")"
+        : "transparent",
   };
   const imgStyle = {
     color: props.item.border_color,
@@ -66,13 +67,45 @@ function Category(props) {
       <Collapse in={open} className="w-75 mx-auto">
         <div id="example-collapse-text" className="text-light">
           <span className="px-4 py-0">{parse(props.item.description)}</span>
-          
+
           <Container>
-            <Row xs="auto">
-              {props.item.data.map((object, index) => (
-                <Block action={OpenCollapse} object={object} key={index} color={props.item.border_color} chosenInfo={props.chosenInfo}></Block>
-              ))}
-            </Row>
+            {props.item["data"] != undefined && (
+              <Row xs="auto">
+                {props.item["data"].map((object, index) => (
+                  <Block
+                    action={OpenCollapse}
+                    object={object}
+                    key={index}
+                    color={props.item.border_color}
+                    chosenInfo={props.chosenInfo}
+                  ></Block>
+                ))}
+              </Row>
+            )}
+            {props.item["data_other"] !== undefined && (
+              <div>
+                {props.item["data_other"].map((object, index) => {
+                  return (
+                    <div key={index}>
+                      {object.name}
+                      <Row xs="auto">
+                        {object.data.map((new_object, new_index) => {
+                          return (
+                            <Block
+                              action={OpenCollapse}
+                              object={new_object}
+                              key={new_index}
+                              color={props.item.border_color}
+                              chosenInfo={props.chosenInfo}
+                            ></Block>
+                          );
+                        })}
+                      </Row>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </Container>
         </div>
       </Collapse>

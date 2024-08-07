@@ -1,0 +1,129 @@
+{
+  "border_color": "Blue",
+  "name": "Инструменты",
+  "description": "",
+  "data_other": [
+    {
+      "name": "Обычные",
+      "data": [
+        {
+          "name": "Набор для гримма",
+          "icon": "./tool-icons/clown.svg",
+          "shortinfo": "инфа",
+          "page": "КИ, стр. 197",
+          "description": "wdsdwd"
+        },
+        {
+          "name": "Набор для фальсификации",
+          "icon": "./tool-icons/full-folder.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Игровой набор",
+          "icon": "./tool-icons/rolling-dices.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Набор травника",
+          "icon": "./tool-icons/plant-roots.svg",
+          "shortinfo": "инфа",
+          "page": "КИ, стр. 197",
+          "description": "wdsdwd"
+        },
+        {
+          "name": "Музыкальные инструменты",
+          "icon": "./tool-icons/musical-notes.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Инструменты навигатора",
+          "icon": "./tool-icons/compass.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Инструменты отравителя",
+          "icon": "./tool-icons/poison-bottle.svg",
+          "shortinfo": "инфа",
+          "page": "КИ, стр. 197",
+          "description": "wdsdwd"
+        },
+        {
+          "name": "Воровские инструменты",
+          "icon": "./tool-icons/lockpicks.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Инструменты ремесленника",
+      "data": [
+        {
+          "name": "Инструменты алхимика",
+          "icon": "./tool-icons/potion-ball.svg",
+          "shortinfo": "инфа",
+          "page": "КИ, стр. 197",
+          "description": "wdsdwd"
+        },
+        {
+          "name": "Инструменты пивовара",
+          "icon": "./tool-icons/beer-stein.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Инструменты каллиграфа",
+          "icon": "./tool-icons/quill-ink.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Инструменты плотника",
+          "icon": "./tool-icons/wood-beam.svg",
+          "shortinfo": "инфа",
+          "page": "КИ, стр. 197",
+          "description": "wdsdwd"
+        },
+        {
+          "name": "Инструменты картографа",
+          "icon": "./tool-icons/treasure-map.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Инструменты сапожника",
+          "icon": "./tool-icons/boots.svg",
+          "shortinfo": "инфа",
+          "page": "КИ, стр. 197",
+          "description": "wdsdwd"
+        },
+        {
+          "name": "Инструменты повара",
+          "icon": "./tool-icons/camp-cooking-pot.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        },
+        {
+          "name": "Инструменты стеклодува",
+          "icon": "./tool-icons/glass-ball.svg",
+          "shortinfo": "Tasha's Cauldron of Everything",
+          "page": "КИ, стр. 197",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

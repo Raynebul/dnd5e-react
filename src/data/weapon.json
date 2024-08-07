@@ -1,0 +1,84 @@
+{
+  "border_color": "RoyalBlue",
+  "name": "Оружие",
+  "description": "",
+  "data": [
+    {
+      "name": "Боеприпас",
+      "icon": "./weapons-icons/quiver.svg",
+      "shortinfo": "инфа",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Двуручное",
+      "icon": "./weapons-icons/sharp-axe.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    },
+    {
+      "name": "Дистанционное",
+      "icon": "./weapons-icons/bow-arrow.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    },
+    {
+      "name": "Досягаемость",
+      "icon": "./weapons-icons/barbed-spear.svg",
+      "shortinfo": "инфа",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Лёгкое",
+      "icon": "./weapons-icons/feather.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    },
+    {
+      "name": "Метательное",
+      "icon": "./weapons-icons/flying-shuriken.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    },
+    {
+      "name": "Перезарядка",
+      "icon": "./weapons-icons/crossbow.svg",
+      "shortinfo": "инфа",
+      "page": "КИ, стр. 197",
+      "description": "wdsdwd"
+    },
+    {
+      "name": "Тяжёлое",
+      "icon": "./weapons-icons/halberd.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    },
+    {
+      "name": "Универсальное",
+      "icon": "./weapons-icons/shard-sword.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    },
+    {
+      "name": "Фехтовальное",
+      "icon": "./weapons-icons/fencer.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    },
+    {
+      "name": "Особое",
+      "icon": "./weapons-icons/dice.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "КИ, стр. 197",
+      "description": ""
+    }
+  ]
+}

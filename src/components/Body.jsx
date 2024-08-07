@@ -12,6 +12,8 @@ import hits from "../data/hits.json";
 import damage from "../data/damage.json";
 import stats from "../data/stats.json";
 import skills from "../data/skills.json";
+import weapons from "../data/weapon.json";
+import tools from "../data/tools.json";
 
 import rulebooks from "../data/rulebooks.json";
 import Category from "./Category.jsx";
@@ -32,6 +34,8 @@ categories_.push(hits);
 categories_.push(damage);
 categories_.push(stats);
 categories_.push(skills);
+categories_.push(weapons);
+categories_.push(tools);
 categories_.push(rulebooks);
 
 function Body() {
