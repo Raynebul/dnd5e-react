@@ -50,6 +50,12 @@ function Category(props) {
     width: "75px",
     fill: "red",
   };
+  let icon;
+  if (open) {
+    icon = <i className="bi bi-caret-down-fill"></i>;
+  } else {
+    icon =  <i className="bi bi-caret-right-fill"></i>;
+  }
 
   return (
     <>
@@ -62,7 +68,14 @@ function Category(props) {
         className="my-1 mx-auto h6 py-3 w-75 bg-dark border-1 rounded-3 text-light"
         style={listItemStyle}
       >
-        <span className="">{props.item.name}</span>
+        <div className="d-flex">
+          <div className="container-fluid p-0 w-100 ">
+            <span className="text-center">{props.item.name} </span>
+          </div>
+          <div className="container-fluid p-0 w-100 text-end">
+            {icon}
+          </div>
+        </div>
       </ListGroup.Item>
       <Collapse in={open} className="w-75 mx-auto">
         <div id="example-collapse-text" className="text-light">
