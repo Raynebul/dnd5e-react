@@ -26,7 +26,7 @@ function RightPanel(props) {
         <Collapse
           in={props.open}
           style={{ width: String(window.screen.width / 2) + "px" }}
-          className=" "
+          className=""
         >
           <div
             id="example-collapse-text"
@@ -49,7 +49,7 @@ function RightPanel(props) {
           in={props.open}
 
           style={{ width: String(window.screen.width / 2) + "px", maxHeight: String(window.screen.height / 1.4) + "px"}}
-          className="border rounded-2 border-secondary"
+          className="border rounded-2 border-secondary bg-dark"
         >
           <div
             id="example-collapse-text"

@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="container-fluid min-vh-100 d-flex-column bg-dark px-0">
+    <div className="container-fluid min-vh-100 d-flex-column px-0 bg-very-dark">
       <Header />
       <Body />
       <Footer />

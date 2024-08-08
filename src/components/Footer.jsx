@@ -1,13 +1,18 @@
-import { useState } from 'react'
-
+import { useState } from "react";
 
 function Footer() {
-  
-    return (
-      <div className="">
-
+  return (
+    <footer className="text-center text-lg-start bg-very-dark">
+      <div className="text-center p-3">
+        <a
+          className="text-light link-offset-2 link-underline link-underline-opacity-0"
+          href="https://github.com/Raynebul/dnd5e-react"
+        >
+          <i className="bi bi-code-slash pe-1"></i>Код проекта
+        </a>
       </div>
-    )
-  }
-  
-  export default Footer
+    </footer>
+  );
+}
+
+export default Footer;
