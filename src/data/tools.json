@@ -1,6 +1,6 @@
 {
   "border_color": "Blue",
-  "name": "Инструменты",
+  "name": "<i className='bi bi-tools'></i> Инструменты",
   "description": "",
   "data_other": [
     {

@@ -1,6 +1,6 @@
 {
     "border_color": "lime",
-    "name": "Реакции",
+    "name": "<i className='bi bi-person-fill-exclamation'></i> Реакции |  <span className='h7'>1 до следующего вашего хода</span>",
     "description": "Реакция — это мгновенный ответ на срабатывание некоего условия, который может происходить как в ваш, так и в чужой ход.",
     "data": [
       {

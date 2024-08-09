@@ -1,6 +1,6 @@
 {
   "border_color": "gray",
-  "name": "Книги правил",
+  "name": "<i className='bi bi-book-half'></i> Книги правил",
   "description": "",
   "data": [
     {

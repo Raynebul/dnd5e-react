@@ -69,8 +69,8 @@ function Category(props) {
         style={listItemStyle}
       >
         <div className="d-flex">
-          <div className="container-fluid p-0 w-100 ">
-            <span className="text-center">{props.item.name} </span>
+          <div className="container-fluid p-0 w-100">
+            <span className="">{parse(props.item.name)} </span>
           </div>
           <div className="container-fluid p-0 w-100 text-end">
             {icon}

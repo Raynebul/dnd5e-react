@@ -1,6 +1,6 @@
 {
   "border_color": "RoyalBlue",
-  "name": "Оружие",
+  "name": "<i className='bi bi-crosshair'></i> Оружие",
   "description": "",
   "data": [
     {

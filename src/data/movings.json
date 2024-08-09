@@ -1,6 +1,6 @@
 {
   "border_color": "Orange ",
-  "name": "Движение",
+  "name": "<i className='bi bi-person-walking'></i> Движение  |  <span className='h7'>ограничено скоростью</span>",
   "description": "<div className='h6 each-line'>Вы можете передвигаться в любое время вашего хода (до, после или во время действий).</div>",
   "data": [
     {

@@ -1,6 +1,6 @@
 {
     "border_color": "yellow",
-    "name": "Действия ",
+    "name": "<i className='bi bi-person-raised-hand'></i> Действия  |  <span className='h7'>1 за ход</span>",
     "description": "<div className='h6 each-line'> 1 раз за ход </div>",
     "data": [
       {
