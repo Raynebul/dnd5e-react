@@ -1,57 +1,56 @@
 {
-    "border_color": "DeepSkyBlue",
-    "name": "<i className='bi bi-dice-6-fill'></i> Характеристики",
-    "description": "",
-    "data": [
-      {
-        "name": "Модификаторы",
-        "icon": "./stat-icons/calculator.svg",
-        "shortinfo": "Бонус, прибавляемый к проверкам характеристикам в зависимости от их значений",
-        "page": "КИ, стр. 13",
-        "description": "<table class='table table-dark table-striped'> <thead> <tr> <th scope='col'>Значение</th> <th scope='col'>Модификатор</th> </tr> </thead> <tbody> <tr> <th scope='row'>1</th> <td>-5</td> </tr> <tr> <th scope='row'>2-3</th> <td>-4</td> </tr> <tr> <th scope='row'>4-5</th> <td>-3</td> </tr> <tr> <th scope='row'>6-7</th> <td>-2</td> </tr> <tr> <th scope='row'>8-9</th> <td>-1</td> </tr> <tr> <th scope='row'>10-11</th> <td>0</td> </tr> <tr> <th scope='row'>12-13</th> <td>+1</td> </tr> <tr> <th scope='row'>14-15</th> <td>+2</td> </tr> <tr> <th scope='row'>16-17</th> <td>+3</td> </tr> <tr> <th scope='row'>18-19</th> <td>+4</td> </tr> <tr> <th scope='row'>20-21</th> <td>+5</td> </tr> <tr> <th scope='row'>22-23</th> <td>+6</td> </tr> <tr> <th scope='row'>24-25</th> <td>+7</td> </tr> <tr> <th scope='row'>26-27</th> <td>+8</td> </tr> <tr> <th scope='row'>28-29</th> <td>+9</td> </tr> <tr> <th scope='row'>30</th> <td>+10</td> </tr> </tbody> </table>"
-      },
-      {
-        "name": "Сила",
-        "icon": "./stat-icons/strength.svg",
-        "shortinfo": "инфа",
-        "page": "КИ, стр. 197",
-        "description": "wdsdwd"
-      },
-      {
-        "name": "Ловкость",
-        "icon": "./stat-icons/agility.svg",
-        "shortinfo": "Tasha's Cauldron of Everything",
-        "page": "КИ, стр. 197",
-        "description": ""
-      },
-      {
-        "name": "Телосложение",
-        "icon": "./stat-icons/constitution.svg",
-        "shortinfo": "Tasha's Cauldron of Everything",
-        "page": "КИ, стр. 197",
-        "description": ""
-      },
-      {
-        "name": "Мудрость",
-        "icon": "./stat-icons/wisdom.svg",
-        "shortinfo": "инфа",
-        "page": "КИ, стр. 197",
-        "description": "wdsdwd"
-      },
-      {
-        "name": "Интеллект",
-        "icon": "./stat-icons/intelligence.svg",
-        "shortinfo": "Tasha's Cauldron of Everything",
-        "page": "КИ, стр. 197",
-        "description": ""
-      },
-      {
-        "name": "Харизма",
-        "icon": "./stat-icons/charisma.svg",
-        "shortinfo": "Tasha's Cauldron of Everything",
-        "page": "КИ, стр. 197",
-        "description": ""
-      }
-    ]
-  }
-  
+  "border_color": "DeepSkyBlue",
+  "name": "<i className='bi bi-dice-6-fill'></i> Характеристики",
+  "description": "",
+  "data": [
+    {
+      "name": "Модификаторы",
+      "icon": "./stat-icons/calculator.svg",
+      "shortinfo": "Бонус, прибавляемый к проверкам характеристикам в зависимости от их значений",
+      "page": "КИ, стр. 13",
+      "description": "<table class='table table-dark table-striped'> <thead> <tr> <th scope='col'>Значение</th> <th scope='col'>Модификатор</th> </tr> </thead> <tbody> <tr> <th scope='row'>1</th> <td>-5</td> </tr> <tr> <th scope='row'>2-3</th> <td>-4</td> </tr> <tr> <th scope='row'>4-5</th> <td>-3</td> </tr> <tr> <th scope='row'>6-7</th> <td>-2</td> </tr> <tr> <th scope='row'>8-9</th> <td>-1</td> </tr> <tr> <th scope='row'>10-11</th> <td>0</td> </tr> <tr> <th scope='row'>12-13</th> <td>+1</td> </tr> <tr> <th scope='row'>14-15</th> <td>+2</td> </tr> <tr> <th scope='row'>16-17</th> <td>+3</td> </tr> <tr> <th scope='row'>18-19</th> <td>+4</td> </tr> <tr> <th scope='row'>20-21</th> <td>+5</td> </tr> <tr> <th scope='row'>22-23</th> <td>+6</td> </tr> <tr> <th scope='row'>24-25</th> <td>+7</td> </tr> <tr> <th scope='row'>26-27</th> <td>+8</td> </tr> <tr> <th scope='row'>28-29</th> <td>+9</td> </tr> <tr> <th scope='row'>30</th> <td>+10</td> </tr> </tbody> </table>"
+    },
+    {
+      "name": "Сила",
+      "icon": "./stat-icons/strength.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 175",
+      "description": "<div className='h6 each-line'> <div>Сила означает физическую силу и атлетические тренировки.</div> <div className='no-line h5 mt-2 mb-0'><strong>Проверки силы</strong></div> <div className='no-line '>Мастер может призвать к проверке Силы, если вы пытаетесь сделать что-то из следующего: </div> <ul> <li>Попытка открыть застрявшую, запертую или заложенную на засов дверь </li> <li>Попытка вырваться из оков</li> <li>Попытка протиснуться по узкому туннелю </li> <li>Попытка удержаться за фургон, не отцепившись от него во время движения</li> <li>Опрокидывание статуи</li> <li>Попытка удержать валун от падения</li> </ul> </div>"
+    },
+    {
+      "name": "Ловкость",
+      "icon": "./stat-icons/agility.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 176",
+      "description": "<div className='h6 each-line'> <div>Ловкость отвечает за проворство, реакцию и рав- новесие.</div> <div className='no-line h5 mt-2 mb-0'><strong>Проверки ловкости</strong></div> <div className='no-line '>Мастер может призвать к проверке Ловкости, если вы пытаетесь сделать что-то из следующего: </div> <ul> <li>Вы спускаетесь с тяжело нагруженной тачкой по крутому склону </li> <li>Вы закладываете крутой вираж на карете</li> <li>Вы вскрываете замок </li> <li>Вы обезвреживаете ловушку</li> <li>Вы связываете пленника сложным узлом</li> <li>Вы пытаетесь высвободиться из пут</li> <li>Вы играете на струнном инструменте</li> <li>Вы создаёте мелкий или высокодетализированный предмет</li> </ul> </div>"
+    },
+    {
+      "name": "Телосложение",
+      "icon": "./stat-icons/constitution.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 177",
+      "description": "<div className='h6 each-line'> <div>Телосложение измеряет ваше здоровье, выносливость и жизненные силы.</div> <div className='no-line h5 mt-2 mb-0'><strong>Проверки телосложения</strong></div> <div className='no-line '>Проверки Телосложения совершаются не часто, и от него не зависят никакие навыки, так как выносливость, которую отражает эта характеристика, пассивна, и персонаж или чудовище не может активно её использовать. Однако проверка Телосложения может моделировать вашу попытку сделать что-то необычное. Мастер может призвать к проверке Телосложения, если вы пытаетесь сделать что-то из следующего: </div> <ul> <li>Вы совершаете марш-бросок или несколько часов без перерыва работаете </li> <li>Вы долго не спите</li> <li>У вас нет еды и воды </li> <li>ВВы пытаетесь осушить кружку эля одним махом</li> </ul> </div>"
+    },
+    {
+      "name": "Мудрость",
+      "icon": "./stat-icons/wisdom.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 178",
+      "description": "<div className='h6 each-line'> <div>Мудрость определяет, как хорошо вы настроены на окружающий мир и отражает восприимчивость и интуицию.</div> <div className='no-line h5 mt-2 mb-0'><strong>Проверки мудрости</strong></div> <div className='no-line '>Мастер может призвать к проверке Мудрости, если вы пытаетесь сделать что-то из следующего: </div> <ul> <li>Вы пытаетесь понять, что делать дальше</li> <li>Вы пытаетесь распознать доппельгангера</li> </ul> </div>"
+    },
+    {
+      "name": "Интеллект",
+      "icon": "./stat-icons/intelligence.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 177",
+      "description": "<div className='h6 each-line'> <div>Интеллект измеряет силу ума, точность воспоминаний и способность здраво рассуждать.</div> <div className='no-line h5 mt-2 mb-0'><strong>Проверки интеллекта</strong></div> <div className='no-line '>Мастер может призвать к проверке Интеллекта, если вы пытаетесь сделать что-то из следующего: </div> <ul> <li>Вы общаетесь с существом без использования слов</li> <li>Вы оцениваете стоимость ценного предмета</li> <li>Вы маскируетесь под городского стража</li> <li>Вы подделываете документ</li> <li>Вы вспоминаете знание о ремесле или торговле</li> <li>Вы соревнуетесь с кем-то в философском споре</li> </ul> </div>"
+    },
+    {
+      "name": "Харизма",
+      "icon": "./stat-icons/charisma.svg",
+      "shortinfo": "",
+      "page": "КИ, стр. 178",
+      "description": "<div className='h6 each-line'> <div>Харизма измеряет вашу способность эффективно взаимодействовать с другими. Она охватывает такие факторы как уверенность в себе и красноречие, и может отражать привлекательную или вну- шительную внешность.</div> <div className='no-line h5 mt-2 mb-0'><strong>Проверки харизмы</strong></div> <div className='no-line '>Мастер может призвать к проверке Харизмы, если вы пытаетесь сделать что-то из следующего: </div> <ul> <li>Вы ищете, с кем лучше всего обсудить новости, слухи и сплетни</li> <li>Вы сливаетесь с толпой, чтобы узнать основные обсуждаемые темы</li> <li>Вы пытаетесь соблазнить даму или кавалера на знатном балу</li> </ul> </div>"
+    }
+  ]
+}
