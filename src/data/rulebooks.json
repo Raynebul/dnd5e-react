@@ -11,18 +11,25 @@
       "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://orc-news.ru/PDF/dnd5.pdf'>Книга Игрока (PDF)</a></p>"
     },
     {
-      "name": "Котёл Таши со Всякой Всячиной",
-      "icon": "./rulebook-icons/book-cover.svg",
-      "shortinfo": "Tasha's Cauldron of Everything",
-      "page": "TCF",
-      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
-    },
-    {
       "name": "Руководство Мастера Подземелий",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Dungeon Master's Guide",
       "page": "DMG",
       "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://orc-news.ru/PDF/dm5.pdf'>Руководство Мастера Подземелий (PDF)</a></p>"
+    },
+    {
+      "name": "Руководство Занатара обо Всём",
+      "icon": "./rulebook-icons/book-cover.svg",
+      "shortinfo": "Xanathar's Guide to Everything",
+      "page": "XGtE",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/RULEBOOKS/Xanathars%20Guide%20to%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
+    },
+    {
+      "name": "Котёл Таши со Всякой Всячиной",
+      "icon": "./rulebook-icons/book-cover.svg",
+      "shortinfo": "Tasha's Cauldron of Everything",
+      "page": "TCoF",
+      "description": "<div>Ссылка на книгу: </div><p><a class='link-opacity-10-hover' target='_blank' href='https://dungeonsanddragons.ru/bookfull/Tasha%27s%20Cauldron%20of%20Everything%20RUS.pdf'>Котёл Таши со всякой всячиной (PDF)</a></p>"
     }
   ]
 }
