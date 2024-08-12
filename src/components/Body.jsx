@@ -15,6 +15,9 @@ import skills from "../data/skills.json";
 import weapons from "../data/weapon.json";
 import tools from "../data/tools.json";
 import other_checks from "../data/other-checks.json";
+import environment from "../data/environment.json";
+
+import spells from "../data/spells.json";
 
 import rulebooks from "../data/rulebooks.json";
 import Category from "./Category.jsx";
@@ -38,6 +41,8 @@ categories_.push(skills);
 categories_.push(weapons);
 categories_.push(tools);
 categories_.push(other_checks);
+categories_.push(environment);
+categories_.push(spells);
 categories_.push(rulebooks);
 
 function Body() {
