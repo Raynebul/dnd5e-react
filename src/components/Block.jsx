@@ -2,6 +2,7 @@ import { useState } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import parse from "html-react-parser";
 
 const colHeight = "140px";
 const colWidth = "120px";
@@ -75,7 +76,7 @@ function Block(props) {
         >
           <svg style={svgStyle} className="mt-1"></svg>
           <div className="mt-3 h6" style={textStyle}>
-            {props.object.name}
+            {parse(props.object.name)}
           </div>
         </button>
         {isHover && (
