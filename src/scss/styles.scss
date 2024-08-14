@@ -11,6 +11,18 @@
   }
 }
 
+.each-line-n {
+  div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.blockquote {
+  font-size: 1rem !important;
+  font-style: italic !important;
+}
+
 .bg-very-dark {
   background: #151a1f;
 }
@@ -21,6 +33,10 @@
 
 .btn-dark-hovered {
   background-color: #404c54 !important;
+}
+
+.bg-dark-secondary {
+  background-color: #32353d !important;
 }
 
 .h7 {
