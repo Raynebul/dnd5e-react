@@ -68,7 +68,7 @@ function RightPanel(props) {
             </div>
 
             <div className="mt-2 mx-3 h5 d-flex">
-              {parse(props.data.name)}
+              {parse(props.data.name_)}
               <span className="ms-2 badge bg-secondary"> {props.data["page"]}</span>
             </div>
             <div className="mt-2 mx-3 h6 text-muted">

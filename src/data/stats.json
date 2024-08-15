@@ -5,6 +5,7 @@
   "data": [
     {
       "name": "Модификаторы",
+      "name_": "Модификаторы",
       "icon": "./stat-icons/calculator.svg",
       "shortinfo": "Бонус, прибавляемый к проверкам характеристикам в зависимости от их значений",
       "page": "КИ, стр. 13",
@@ -12,6 +13,7 @@
     },
     {
       "name": "Сила",
+      "name_": "Сила",
       "icon": "./stat-icons/strength.svg",
       "shortinfo": "",
       "page": "КИ, стр. 175",
@@ -19,6 +21,7 @@
     },
     {
       "name": "Ловкость",
+      "name_": "Ловкость",
       "icon": "./stat-icons/agility.svg",
       "shortinfo": "",
       "page": "КИ, стр. 176",
@@ -26,6 +29,7 @@
     },
     {
       "name": "Телосложение",
+      "name_": "Телосложение",
       "icon": "./stat-icons/constitution.svg",
       "shortinfo": "",
       "page": "КИ, стр. 177",
@@ -33,6 +37,7 @@
     },
     {
       "name": "Мудрость",
+      "name_": "Мудрость",
       "icon": "./stat-icons/wisdom.svg",
       "shortinfo": "",
       "page": "КИ, стр. 178",
@@ -40,6 +45,7 @@
     },
     {
       "name": "Интеллект",
+      "name_": "Интеллект",
       "icon": "./stat-icons/intelligence.svg",
       "shortinfo": "",
       "page": "КИ, стр. 177",
@@ -47,6 +53,7 @@
     },
     {
       "name": "Харизма",
+      "name_": "Харизма",
       "icon": "./stat-icons/charisma.svg",
       "shortinfo": "",
       "page": "КИ, стр. 178",

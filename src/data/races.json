@@ -5,6 +5,7 @@
   "data": [
     {
       "name": "Человек",
+      "name_": "Человек",
       "icon": "./race-icons/human.svg",
       "shortinfo": "Самая молодая из распространённых рас",
       "page": "КИ, стр. 29",
@@ -12,6 +13,7 @@
     },
     {
       "name": "Эльф",
+      "name_": "Эльф",
       "icon": "./race-icons/elf.svg",
       "shortinfo": "Волшебный народ, обладающий неземным изяществом",
       "page": "КИ, стр. 21",
@@ -19,6 +21,7 @@
     },
     {
       "name": "Полуэльф",
+      "name_": "Полуэльф",
       "icon": "./race-icons/halfelf.svg",
       "shortinfo": "Бродящие по двум мирам, но не принадлежащие ни одному из них",
       "page": "КИ, стр. 38",
@@ -26,6 +29,7 @@
     },
     {
       "name": "Дварф",
+      "name_": "Дварф",
       "icon": "./race-icons/dwarf.svg",
       "shortinfo": "инфа",
       "page": "КИ, стр. 18",
@@ -33,6 +37,7 @@
     },
     {
       "name": "Гном",
+      "name_": "Гном",
       "icon": "./race-icons/gnome.svg",
       "shortinfo": "инфа",
       "page": "КИ, стр. 35",
@@ -40,6 +45,7 @@
     },
     {
       "name": "Полурослик",
+      "name_": "Полурослик",
       "icon": "./race-icons/gnome.svg",
       "shortinfo": "инфа",
       "page": "КИ, стр. 26",
@@ -47,6 +53,7 @@
     },
     {
       "name": "Тифлинг",
+      "name_": "Тифлинг",
       "icon": "./race-icons/tiefling.svg",
       "shortinfo": "инфа",
       "page": "КИ, стр. 42",
@@ -54,6 +61,7 @@
     },
     {
       "name": "Драконорож-\nденный",
+      "name_": "Драконорожденный",
       "icon": "./race-icons/dragonborn.svg",
       "shortinfo": "инфа",
       "page": "КИ, стр. 32",
@@ -61,6 +69,7 @@
     },
     {
       "name": "Полуорк",
+      "name_": "Полуорк",
       "icon": "./race-icons/halforc.svg",
       "shortinfo": "инфа",
       "page": "КИ, стр. 40",

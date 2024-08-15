@@ -5,6 +5,7 @@
   "data": [
     {
       "name": "Книга Игрока",
+      "name_": "Книга Игрока",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Player's Handbook",
       "page": "PH",
@@ -12,6 +13,7 @@
     },
     {
       "name": "Книга Мастера",
+      "name_": "Книга Мастера",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Dungeon Master's Guide",
       "page": "DMG",
@@ -19,6 +21,7 @@
     },
     {
       "name": "Руководство Занатара обо Всём",
+      "name_": "Руководство Занатара обо Всём",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Xanathar's Guide to Everything",
       "page": "XGtE",
@@ -26,6 +29,7 @@
     },
     {
       "name": "Котёл Таши со Всякой Всячиной",
+      "name_": "Котёл Таши со Всякой Всячиной",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Tasha's Cauldron of Everything",
       "page": "TCoF",
@@ -33,6 +37,7 @@
     },
     {
       "name": "Бестиарий",
+      "name_": "Бестиарий",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Monster Manual",
       "page": "MM",
@@ -40,6 +45,7 @@
     },
     {
       "name": "Том Морденкайна о врагах",
+      "name_": "Том Морденкайна о врагах",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Mornenkainens Tome of Foes",
       "page": "MToF",
@@ -47,6 +53,7 @@
     },
     {
       "name": "Справочник Воло по Монстрам",
+      "name_": "Справочник Воло по Монстрам",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Volos Guide to Monsters",
       "page": "VGtM",
@@ -54,6 +61,7 @@
     },
     {
       "name": "<div className='h7'>Путеводитель Приключенца по Побережью Меча</div>",
+      "name_": "Путеводитель Приключенца по Побережью Меча",
       "icon": "./rulebook-icons/book-cover.svg",
       "shortinfo": "Sword Coast Adventurers Guide",
       "page": "SCAG",

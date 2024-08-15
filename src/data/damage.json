@@ -5,6 +5,7 @@
   "data": [
     {
       "name": "Премущество и помеха",
+      "name_": "Премущество и помеха",
       "icon": "./damage-icons/yin-yang.svg",
       "shortinfo": "",
       "page": "КИ, стр. 173",
@@ -12,6 +13,7 @@
     },
     {
       "name": "Критическое попадание",
+      "name_": "Критическое попадание",
       "icon": "./damage-icons/dice-twenty-faces-twenty.svg",
       "shortinfo": "20 при броске Атаки",
       "page": "КИ, стр. 194, 196",
@@ -19,6 +21,7 @@
     },
     {
       "name": "Критический промах",
+      "name_": "Критический промах",
       "icon": "./damage-icons/dice-twenty-faces-one.svg",
       "shortinfo": "1 при броске Атаки",
       "page": "КИ, стр. 194",
@@ -27,6 +30,7 @@
 
     {
       "name": "Сопротивление",
+      "name_": "Сопротивление",
       "icon": "./damage-icons/armor-upgrade.svg",
       "shortinfo": "Снижение урона",
       "page": "КИ, стр. 197",
@@ -34,6 +38,7 @@
     },
     {
       "name": "Уязвимость",
+      "name_": "Уязвимость",
       "icon": "./damage-icons/armor-downgrade.svg",
       "shortinfo": "Повышение урона",
       "page": "КИ, стр. 197",
@@ -41,6 +46,7 @@
     },
     {
       "name": "Падение",
+      "name_": "Падение",
       "icon": "./damage-icons/falling.svg",
       "shortinfo": "Урон от падения: 1к6 за 10 футов",
       "page": "КИ, стр. 183",
@@ -49,6 +55,7 @@
 
     {
       "name": "Режущий",
+      "name_": "Режущий",
       "icon": "./damage-icons/blade-drag.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -56,6 +63,7 @@
     },
     {
       "name": "Колющий",
+      "name_": "Колющий",
       "icon": "./damage-icons/pierced-body.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -63,6 +71,7 @@
     },
     {
       "name": "Дробящий",
+      "name_": "Дробящий",
       "icon": "./damage-icons/spiked-bat.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -71,6 +80,7 @@
 
     {
       "name": "Звуковой",
+      "name_": "Звуковой",
       "icon": "./damage-icons/sound-waves.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -78,6 +88,7 @@
     },
     {
       "name": "Излучение",
+      "name_": "Излучение",
       "icon": "./damage-icons/sun-radiations.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -85,6 +96,7 @@
     },
     {
       "name": "Кислотный",
+      "name_": "Кислотный",
       "icon": "./damage-icons/chemical-bolt.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -93,6 +105,7 @@
 
     {
       "name": "Некротический",
+      "name_": "Некротический",
       "icon": "./damage-icons/skull-bolt.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -100,6 +113,7 @@
     },
     {
       "name": "Огненный",
+      "name_": "Огненный",
       "icon": "./damage-icons/flame.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -107,6 +121,7 @@
     },
     {
       "name": "Психический",
+      "name_": "Психический",
       "icon": "./damage-icons/psychic-waves.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -115,6 +130,7 @@
 
     {
       "name": "Силовой",
+      "name_": "Силовой",
       "icon": "./damage-icons/ball-glow.svg",
       "shortinfo": "",
       "page": "КИ, стр. 196",
@@ -122,6 +138,7 @@
     },
     {
       "name": "Холодный",
+      "name_": "Холодный",
       "icon": "./damage-icons/ice-bolt.svg",
       "shortinfo": "",
       "page": "КИ, стр. 197",
@@ -129,6 +146,7 @@
     },
     {
       "name": "Электрический",
+      "name_": "Электрический",
       "icon": "./damage-icons/lightning-trio.svg",
       "shortinfo": "",
       "page": "КИ, стр. 197",
@@ -136,6 +154,7 @@
     },
     {
       "name": "Ядовитый",
+      "name_": "Ядовитый",
       "icon": "./damage-icons/poison-gas.svg",
       "shortinfo": "",
       "page": "КИ, стр. 197",

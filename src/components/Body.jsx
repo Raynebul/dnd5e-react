@@ -48,7 +48,7 @@ categories_.push(rulebooks);
 function Body() {
   const [count, setCount] = useState(0);
   const [open_collapse, setOpen_collapse] = useState(false);
-  const [chosenInfo, setChosenInfo] = useState({name: "", icons: "", description: ""});
+  const [chosenInfo, setChosenInfo] = useState({name: "", icons: "", description: "", name_: ""});
 
   const OpenCollapse = (data) => {
     setChosenInfo(data)
@@ -58,7 +58,7 @@ function Body() {
         setOpen_collapse(true);
   };
   const CloseCollapse = () => {
-    setChosenInfo({name: "", icons: "", description: ""})
+    setChosenInfo({name: "", icons: "", description: "", name_: ""})
     setOpen_collapse(false);
   };
 

@@ -5,6 +5,7 @@
   "data": [
     {
       "name": "Боеприпас",
+      "name_": "Боеприпас",
       "icon": "./weapons-icons/quiver.svg",
       "shortinfo": "Использует боеприпасы",
       "page": "КИ, стр. 146-147",
@@ -12,6 +13,7 @@
     },
     {
       "name": "Двуручное",
+      "name_": "Двуручное",
       "icon": "./weapons-icons/sharp-axe.svg",
       "shortinfo": "Оружие для двух рукg",
       "page": "КИ, стр. 147",
@@ -19,6 +21,7 @@
     },
     {
       "name": "Дистанционное",
+      "name_": "Дистанционное",
       "icon": "./weapons-icons/bow-arrow.svg",
       "shortinfo": "Дальнобойное оружие",
       "page": "КИ, стр. 147",
@@ -26,6 +29,7 @@
     },
     {
       "name": "Досягаемость",
+      "name_": "Досягаемость",
       "icon": "./weapons-icons/barbed-spear.svg",
       "shortinfo": "Длинное рукопашное оружие",
       "page": "КИ, стр. 147",
@@ -33,6 +37,7 @@
     },
     {
       "name": "Лёгкое",
+      "name_": "Лёгкое",
       "icon": "./weapons-icons/feather.svg",
       "shortinfo": "Легко управляться одной рукой",
       "page": "КИ, стр. 147",
@@ -40,6 +45,7 @@
     },
     {
       "name": "Метательное",
+      "name_": "Метательное",
       "icon": "./weapons-icons/flying-shuriken.svg",
       "shortinfo": "Оружие можно метнуть",
       "page": "КИ, стр. 147",
@@ -47,6 +53,7 @@
     },
     {
       "name": "Перезарядка",
+      "name_": "Перезарядка",
       "icon": "./weapons-icons/crossbow.svg",
       "shortinfo": "Долгая перезарядка",
       "page": "КИ, стр. 147",
@@ -54,6 +61,7 @@
     },
     {
       "name": "Тяжёлое",
+      "name_": "Тяжёлое",
       "icon": "./weapons-icons/halberd.svg",
       "shortinfo": "Тяжёлое для малых существ",
       "page": "КИ, стр. 147",
@@ -61,6 +69,7 @@
     },
     {
       "name": "Универсальное",
+      "name_": "Универсальное",
       "icon": "./weapons-icons/shard-sword.svg",
       "shortinfo": "Оружие для одной или двух рук",
       "page": "КИ, стр. 147",
@@ -68,6 +77,7 @@
     },
     {
       "name": "Фехтовальное",
+      "name_": "Фехтовальное",
       "icon": "./weapons-icons/fencer.svg",
       "shortinfo": "Использует Ловкость вместо Силы",
       "page": "КИ, стр. 147",
@@ -75,6 +85,7 @@
     },
     {
       "name": "Особое",
+      "name_": "Особое",
       "icon": "./weapons-icons/dice.svg",
       "shortinfo": "Оружие с особым свойством",
       "page": "КИ, стр. 147",
@@ -82,6 +93,7 @@
     },
     {
       "name": "Список оружия",
+      "name_": "Список оружия",
       "icon": "./weapons-icons/dice.svg",
       "shortinfo": "Оружие",
       "page": "КИ, стр. 147",

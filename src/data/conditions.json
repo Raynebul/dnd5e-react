@@ -4,7 +4,8 @@
     "description": "Состояния различными способами изменяют возможности существ. Состояние длится до тех пор, пока не будет прервано или в течение времени, которое указано в эффекте.",
     "data": [
       {
-        "name": "Бессознательный",
+        "name": "Бессоз-\nнательный",
+        "name_": "Бессознательный",
         "icon": "./condition-icons/coma.svg",
         "shortinfo": "Вы без сознания",
         "page": "КИ, стр. 290",
@@ -12,6 +13,7 @@
       },
       {
         "name": "Испуганный",
+        "name_": "Испуганный",
         "icon": "./condition-icons/terror.svg",
         "shortinfo": "Вы напуганы",
         "page": "КИ, стр. 290",
@@ -19,6 +21,7 @@
       },
       {
         "name": "Истощённый",
+        "name_": "Истощённый",
         "icon": "./condition-icons/tired-eye.svg",
         "shortinfo": "Вы истощены",
         "page": "КИ, стр. 291",
@@ -27,6 +30,7 @@
 
       {
         "name": "Невидимый",
+        "name_": "Невидимый",
         "icon": "./condition-icons/invisible.svg",
         "shortinfo": "Вас не видно",
         "page": "КИ, стр. 290",
@@ -34,6 +38,7 @@
       },
       {
         "name": "Недеспособный",
+        "name_": "Недеспособный",
         "icon": "./condition-icons/internal-injury.svg",
         "shortinfo": "Вы не можете действовать и реагировать",
         "page": "КИ, стр. 290",
@@ -41,6 +46,7 @@
       },
       {
         "name": "Оглохший",
+        "name_": "Оглохший",
         "icon": "./condition-icons/hearing-disabled.svg",
         "shortinfo": "Вы ничего не слышите",
         "page": "КИ, стр. 291",
@@ -49,6 +55,7 @@
 
       {
         "name": "Окаменевший",
+        "name_": "Окаменевший",
         "icon": "./condition-icons/rock-golem.svg",
         "shortinfo": "Вы превращены в камень",
         "page": "КИ, стр. 290",
@@ -56,6 +63,7 @@
       },
       {
         "name": "Опутанный",
+        "name_": "Опутанный",
         "icon": "./condition-icons/fishing-net.svg",
         "shortinfo": "Вы опутаны или связаны",
         "page": "КИ, стр. 290",
@@ -63,6 +71,7 @@
       },
       {
         "name": "Ослеплённый",
+        "name_": "Ослеплённый",
         "icon": "./condition-icons/sight-disabled.svg",
         "shortinfo": "Вы ничего не видите",
         "page": "КИ, стр. 291",
@@ -71,6 +80,7 @@
 
       {
         "name": "Отравленный",
+        "name_": "Отравленный",
         "icon": "./condition-icons/poison-gas.svg",
         "shortinfo": "Вы отравлены",
         "page": "КИ, стр. 290",
@@ -78,6 +88,7 @@
       },
       {
         "name": "Очарованный",
+        "name_": "Очарованный",
         "icon": "./condition-icons/smitten.svg",
         "shortinfo": "Вы очарованны другим существом",
         "page": "КИ, стр. 290",
@@ -85,6 +96,7 @@
       },
       {
         "name": "Ошеломлённый",
+        "name_": "Ошеломлённый",
         "icon": "./condition-icons/knockout.svg",
         "shortinfo": "Вы ошеломлены",
         "page": "КИ, стр. 291",
@@ -92,7 +104,8 @@
       },
 
       {
-        "name": "Парализованный",
+        "name": "Парализо-\nванный",
+        "name_": "Парализованный",
         "icon": "./condition-icons/vitruvian-man.svg",
         "shortinfo": "Вы парализованы",
         "page": "КИ, стр. 290",
@@ -100,6 +113,7 @@
       },
       {
         "name": "Сбитый с ног, лежащий ничком",
+        "name_": "Сбитый с ног, лежащий ничком",
         "icon": "./condition-icons/falling.svg",
         "shortinfo": "Вы лежите на земле",
         "page": "КИ, стр. 290",
@@ -107,6 +121,7 @@
       },
       {
         "name": "Схваченный",
+        "name_": "Схваченный",
         "icon": "./condition-icons/frozen-body.svg",
         "shortinfo": "Вы захвачены",
         "page": "КИ, стр. 291",
