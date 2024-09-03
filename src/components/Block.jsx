@@ -20,7 +20,7 @@ function Block(props) {
     }
     else
     {
-      props.action({name: "", icons: "", description: ""});
+      props.action({name: "", icons: "", description: "", name_: ""});
     }
     //setIsChosen(!isChosen);
     
@@ -46,17 +46,17 @@ function Block(props) {
   };
   const textStyle = {
     whiteSpace: "normal",
-    color: isHover ? props.color : "white",
+    color: isHover ? props.color : " ",
   };
   const cardStyle = {
     marginLeft: colWidth,
+    zIndex: 999,
     marginTop: "-1px",
     height: colHeight,
     width: "160px",
-    background: "#404c54",
     border: "solid " + props.color,
   };
-  const btnClass= (props.chosenInfo["name"]===props.object["name"]) ? "w-100 btn btn-dark btn-dark-hovered p-0" : "w-100 btn btn-dark p-0";
+  const btnClass= (props.chosenInfo["name"]===props.object["name"]) ? "w-100 btn btn-dnd btn-dnd-hovered p-0" : "w-100 btn btn-dnd p-0";
   return (
     <>
       <Col
@@ -81,10 +81,10 @@ function Block(props) {
         </button>
         {isHover && (
           <Card
-            className="shadow-lg p-0 text-start position-absolute rounded-0 text-white border-1 border-start-0"
+            className="shadow-lg p-0 text-start position-absolute bg-dnd rounded-0 border-1 border-start-0"
             style={cardStyle}
           >
-            <Card.Body className="p-3 fw-bold" style={{ fontSize: "0.75rem" }}>
+            <Card.Body className="p-3 fw-bold " style={{ fontSize: "0.75rem" }}>
             {props.object.shortinfo}
             </Card.Body>
           </Card>

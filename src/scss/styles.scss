@@ -1,6 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-
 .each-line {
   text-indent: 20px;
   div {
@@ -23,23 +22,8 @@
   font-size: 1rem !important;
   font-style: italic !important;
 }
-
-.bg-very-dark {
-  background: #151a1f;
-}
-
-.btn-dark:hover {
-  background-color: #404c54 !important;
-  background-size: 115px 135px;
-  background-image: url("@/../public/card.png");
-  background-repeat: no-repeat;
-}
-
-.btn-dark-hovered {
-  background-color: #404c54 !important;
-  background-size: 115px 135px;
-  background-image: url("@/../public/card.png");
-  background-repeat: no-repeat;
+.btn-icon {
+  --bs-btn-border-width: 0;
 }
 
 .bg-dark-secondary {
@@ -48,4 +32,104 @@
 
 .h7 {
   font-size: 0.9rem;
+}
+
+[data-bs-theme="dnd-dark"] {
+  --bs-body-color: var(--bs-white);
+  color: white;
+  background-color: #151a1f;
+  .btn-icon {
+    --bs-btn-hover-color: #{$gray-300};
+  }
+  .btn-close {
+    filter: var(--bs-btn-close-white-filter);
+  }
+
+  .navbar-brand {
+    color: white;
+  }
+  .bg-right-panel {
+    background-color: var(--bs-dark);
+  }
+  .btn-dnd {
+    --bs-btn-bg: #{$dark};
+    --bs-btn-hover-bg: #404c54 !important;
+  }
+  .btn-dnd:hover {
+    background-size: 115px 135px;
+    background-image: url("@/../public/card.png");
+    background-repeat: no-repeat;
+  }
+
+  .btn-dnd-hovered {
+    background-color: #404c54 !important;
+    background-size: 115px 135px;
+    background-image: url("@/../public/card.png");
+    background-repeat: no-repeat;
+  }
+  .bg-dnd {
+    --bs-card-color: var(--bs-white);
+    --bs-card-bg: var(--bs-dark);
+    --bs-card-border-color: #{$gray-700};
+  }
+  .accordion {
+    --bs-accordion-bg: var(--bs-dark);
+    --bs-accordion-border-color: #{$gray-800};
+    --bs-accordion-active-bg: #{$cyan-900};
+    --bs-accordion-active-color: #{$cyan-400};
+  }
+  .table {
+    --bs-table-color-type: var(--bs-white);
+    --bs-table-bg-type: var(--bs-dark);
+    --bs-table-striped-color: var(--bs-white);
+    --bs-table-striped-bg: #{$gray-800};
+    --bs-table-border-color: #{$gray-700};
+  }
+}
+
+[data-bs-theme="dnd-light"] {
+  --bs-body-color: var(--bs-dark);
+  background-color: #e6ded2;
+  .btn-icon {
+    --bs-btn-hover-color: #{$gray-700};
+  }
+  .bg-right-panel {
+    background-color: #d9d3bd;
+  }
+  .bg-dnd {
+    --bs-card-color: var(--bs-dark);
+    --bs-card-bg: #d9d3bd;
+    --bs-card-border-color: #{$gray-800};
+    --bs-card-title-color: var(--bs-dark);
+    --bs-card-cap-color: var(--bs-dark);
+  }
+  .btn-dnd {
+    --bs-btn-bg: #d9d3bd;
+    --bs-btn-hover-bg: #d9d3bd !important;
+  }
+  .btn-dnd:hover {
+    background-color: #b1a391;
+    background-size: 115px 135px;
+    background-image: url("@/../public/card-light.png");
+    background-repeat: no-repeat;
+  }
+  .btn-dnd-hovered {
+    background-size: 115px 135px;
+    background-color: #b1a391 !important;
+    background-image: url("@/../public/card-light.png");
+    background-repeat: no-repeat;
+  }
+  .accordion {
+    --bs-accordion-bg: #d9d3bd;
+    --bs-accordion-border-color: #{$gray-800};
+    --bs-accordion-active-bg: #{$teal-200};
+    --bs-accordion-active-color: #{$teal-700};
+  }
+  .table {
+    --bs-table-color-type: var(--bs-dark);
+    --bs-table-bg-type: #d9d3bd;
+    --bs-table-striped-color: var(--bs-dark);
+    --bs-table-striped-bg: #cbc0a8;
+    --bs-table-border-color: #d3ceb4;
+  }
 }

@@ -12,7 +12,7 @@ function RightPanel(props) {
     props.close();
   };
 
-  console.log(props.data)
+  console.log(props.data);
   const svgStyle = {
     backgroundImage: "url(" + props.data.icon + ")",
     backgroundRepeat: "no-repeat",
@@ -30,33 +30,24 @@ function RightPanel(props) {
         >
           <div
             id="example-collapse-text"
-            data-bs-theme="dark"
-            className="text-light"
-          >
-            {/*          <div className="text-end mt-3 me-3">
-            <CloseButton onClick={CloseCollapse} />
-          </div>
-          <div className="mt-2 mx-3 h5">{props.data.name}</div>
-          <div className="mt-2 mx-3 h6 text-muted">
-            {props.data["shortinfo"]}
-          </div>
-          <div className="mt-2 mx-3">{props.data["description"]}</div> */}
-          </div>
+            className=""
+          ></div>
         </Collapse>
       </div>
       <div className="p-0 ms-0 position-fixed top-25 end-0 me-3">
         <Collapse
           in={props.open}
-
-          style={{ width: String(window.screen.width / 2) + "px", maxHeight: String(window.screen.height / 1.4) + "px"}}
-          className="border rounded-2 border-secondary bg-dark"
+          style={{
+            width: String(window.screen.width / 2) + "px",
+            maxHeight: String(window.screen.height / 1.4) + "px",
+          }}
+          className="border rounded-2 border-secondary bg-right-panel"
         >
           <div
             id="example-collapse-text"
-            data-bs-theme="dark"
             data-bs-spy="scroll"
-            className="text-light overflow-auto"
-            style={{height: "100px"}}
+            className="overflow-auto"
+            style={{ height: "100px" }}
           >
             <div className="d-flex ms-3 mt-3 me-3">
               <div>
@@ -69,12 +60,17 @@ function RightPanel(props) {
 
             <div className="mt-2 mx-3 h5 d-flex">
               {parse(props.data.name_)}
-              <span className="ms-2 badge bg-secondary"> {props.data["page"]}</span>
+              <span className="ms-2 badge bg-secondary">
+                {" "}
+                {props.data["page"]}
+              </span>
             </div>
-            <div className="mt-2 mx-3 h6 text-muted">
+            <div className="mt-2 mx-3 h6">
               {props.data["shortinfo"]}
             </div>
-            <div className="mt-2 mx-3 mb-3 overflow-auto">{parse(props.data["description"])}</div>
+            <div className="mt-2 mx-3 mb-3 overflow-auto">
+              {parse(props.data["description"])}
+            </div>
           </div>
         </Collapse>
       </div>

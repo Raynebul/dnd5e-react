@@ -65,11 +65,11 @@ function Category(props) {
         onMouseLeave={handleMouseLeave}
         aria-controls="example-collapse-text"
         aria-expanded={open}
-        className="my-1 mx-auto h6 py-3 w-75 bg-dark border-1 rounded-3 text-light"
+        className="my-1 mx-auto h6 py-3 w-75 bg-dnd border-1 rounded-3"
         style={listItemStyle}
       >
         <div className="d-flex">
-          <div className="container-fluid p-0 w-100">
+          <div className="container-fluid  p-0 w-100">
             <span className="">{parse(props.item.name)} </span>
           </div>
           <div className="container-fluid p-0 w-100 text-end">
@@ -78,7 +78,7 @@ function Category(props) {
         </div>
       </ListGroup.Item>
       <Collapse in={open} className="w-75 mx-auto">
-        <div id="example-collapse-text" className="text-light">
+        <div id="example-collapse-text" className="">
           <span className="px-4 py-0">{parse(props.item.description)}</span>
 
           <Container>
