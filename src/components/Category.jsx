@@ -33,7 +33,23 @@ function Category(props) {
   };
 
   const fadein = "{from {opacity: 0;}to {opacity: 100;}}";
-
+  let listItemStyle = {};
+  if (isHover || isChosen) {
+    listItemStyle = {
+      borderColor: props.item.border_color,
+      transition: "0.3s",
+      cursor: "pointer",
+      background:
+        "linear-gradient(transparent, " + props.item.border_color + ")",
+    };
+  } else {
+    listItemStyle = {
+      borderColor: props.item.border_color,
+      transition: "0.3s",
+      cursor: "pointer",
+    };
+  }
+  /*
   const listItemStyle = {
     borderColor: props.item.border_color,
     transition: "0.3s",
@@ -42,7 +58,7 @@ function Category(props) {
       isHover || isChosen
         ? "linear-gradient(transparent, " + props.item.border_color + ")"
         : "transparent",
-  };
+  }; */
   const imgStyle = {
     color: props.item.border_color,
     backgroundRepeat: "no-repeat",
@@ -54,7 +70,7 @@ function Category(props) {
   if (open) {
     icon = <i className="bi bi-caret-down-fill"></i>;
   } else {
-    icon =  <i className="bi bi-caret-right-fill"></i>;
+    icon = <i className="bi bi-caret-right-fill"></i>;
   }
 
   return (
@@ -72,9 +88,7 @@ function Category(props) {
           <div className="container-fluid  p-0 w-100">
             <span className="">{parse(props.item.name)} </span>
           </div>
-          <div className="container-fluid p-0 w-100 text-end">
-            {icon}
-          </div>
+          <div className="container-fluid p-0 w-100 text-end">{icon}</div>
         </div>
       </ListGroup.Item>
       <Collapse in={open} className="w-75 mx-auto">
