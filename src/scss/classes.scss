@@ -1,0 +1,67 @@
+@import "variables.scss";
+
+.block {
+  height: $colHeight;
+  width: $colWidth;
+  cursor: pointer;
+}
+
+.bg-dnd {
+  &--card {
+    margin-left: $colWidth;
+    z-index: 999;
+    margin-top: -1px;
+    height: $colHeight;
+    width: 160px;
+  }
+  .fw-bold {
+    font-size: 0.75rem;
+  }
+}
+
+.btn-dnd {
+  div {
+    white-space: "normal",
+  }
+}
+
+svg {
+    background-repeat: "no-repeat";
+    height: $svgHeight;
+    width: $svgWidth;
+  }
+
+.list-group-item {
+    transition: 0.3s;
+    cursor: pointer !important;
+}
+
+.each-line {
+  text-indent: 20px;
+  div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .no-line {
+    text-indent: 0px;
+  }
+}
+
+.each-line-n {
+  div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.blockquote {
+  font-size: 1rem !important;
+  font-style: italic !important;
+}
+.btn-icon {
+  --bs-btn-border-width: 0;
+}
+.h7 {
+  font-size: 0.9rem;
+}
+

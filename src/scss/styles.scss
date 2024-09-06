@@ -1,41 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 
 @import "mixins.scss";
-
-.each-line {
-  text-indent: 20px;
-  div {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .no-line {
-    text-indent: 0px;
-  }
-}
-
-.each-line-n {
-  div {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
-
-.blockquote {
-  font-size: 1rem !important;
-  font-style: italic !important;
-}
-.btn-icon {
-  --bs-btn-border-width: 0;
-}
-
-.h7 {
-  font-size: 0.9rem;
-}
-
-/*
-.list-group-item {
-
-} */
+@import "classes.scss";
+@import "scrollbar.scss";
 
 [data-bs-theme="dnd-dark"] {
   @include specific-theme(

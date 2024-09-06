@@ -16,25 +16,35 @@
   $mid-color,
   $end-color
 ) {
-  --bs-body-color: #{$font-color};
+  background-color: #{$bg-color};
   color: #{$font-color};
+  --bs-body-color: #{$font-color};
   @include gradient-y-three-colors(
     $start-color: $bg-color,
     $mid-color: $mid-color,
     $color-stop: 75%,
     $end-color: $end-color
   );
-  background-color: #{$bg-color};
-  .list-group-item {
-    background-color: #{$fg-color};
-    -webkit-transition: background-image 2s 0.5s;
-    transition: background-image 2s 1s !important;
+  .btn-dnd {
+    --bs-btn-bg: #{$fg-color};
+    --bs-btn-hover-bg: $fg-color !important;
+
+    &:hover {
+      background-color: #{$hover-color};
+      background-size: 115px 135px;
+      transition: 1s linear !important;
+      background-image: url("@/../public/" + $background-image);
+      background-repeat: no-repeat;
+    }
+    &--hovered {
+      background-size: 115px 135px;
+      background-color: #{$hover-color};
+      background-image: url("@/../public/" + $background-image);
+      background-repeat: no-repeat;
+    }
   }
   .btn-close {
     filter: #{$close-color};
-  }
-  .navbar-brand {
-    color: #{$font-color};
   }
   .btn-icon {
     --bs-btn-hover-color: #{$icon-hover-color};
@@ -50,24 +60,13 @@
     --bs-card-cap-color: #{$font-color};
   }
 
-  .btn-dnd {
-    --bs-btn-bg: #{$fg-color};
-    --bs-btn-hover-bg: $fg-color !important;
+  .list-group-item {
+    background-color: #{$fg-color};
+    -webkit-transition: background-image 2s 0.5s;
+    transition: background-image 2s 1s !important;
   }
-
-  .btn-dnd:hover {
-    background-color: #{$hover-color};
-    background-size: 115px 135px;
-    transition: 1s linear !important;
-    background-image: url("@/../public/" + $background-image);
-    background-repeat: no-repeat;
-  }
-
-  .btn-dnd-hovered {
-    background-size: 115px 135px;
-    background-color: #{$hover-color};
-    background-image: url("@/../public/" + $background-image);
-    background-repeat: no-repeat;
+  .navbar-brand {
+    color: #{$font-color};
   }
   .accordion {
     --bs-accordion-bg: #{$fg-color};
@@ -81,5 +80,19 @@
     --bs-table-striped-color: #{$font-color};
     --bs-table-striped-bg: #{$strip-color};
     --bs-table-border-color: #{$table-border-color};
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $bg-color !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: lighten($fg-color, 10%) !important;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: lighten($fg-color, 15%) !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px !important;
   }
 }

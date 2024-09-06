@@ -15,9 +15,6 @@ function RightPanel(props) {
   console.log(props.data);
   const svgStyle = {
     backgroundImage: "url(" + props.data.icon + ")",
-    backgroundRepeat: "no-repeat",
-    height: svgHeight,
-    width: svgWidth,
   };
 
   return (

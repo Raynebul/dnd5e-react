@@ -32,40 +32,18 @@ function Category(props) {
     props.action(data);
   };
 
-  const fadein = "{from {opacity: 0;}to {opacity: 100;}}";
   let listItemStyle = {};
   if (isHover || isChosen) {
     listItemStyle = {
       borderColor: props.item.border_color,
-      transition: "0.3s",
-      cursor: "pointer",
       background:
         "linear-gradient(transparent, " + props.item.border_color + ")",
     };
   } else {
     listItemStyle = {
       borderColor: props.item.border_color,
-      transition: "0.3s",
-      cursor: "pointer",
     };
   }
-  /*
-  const listItemStyle = {
-    borderColor: props.item.border_color,
-    transition: "0.3s",
-    cursor: "pointer",
-    background:
-      isHover || isChosen
-        ? "linear-gradient(transparent, " + props.item.border_color + ")"
-        : "transparent",
-  }; */
-  const imgStyle = {
-    color: props.item.border_color,
-    backgroundRepeat: "no-repeat",
-    height: "75px",
-    width: "75px",
-    fill: "red",
-  };
   let icon;
   if (open) {
     icon = <i className="bi bi-caret-down-fill"></i>;
