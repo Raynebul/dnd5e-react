@@ -18,6 +18,7 @@ import other_checks from "../data/other-checks.json";
 import environment from "../data/environment.json";
 
 import spells from "../data/spells.json";
+import travels from "../data/travels.json"
 
 import rulebooks from "../data/rulebooks.json";
 import Category from "./Category.jsx";
@@ -43,6 +44,7 @@ categories_.push(tools);
 categories_.push(other_checks);
 categories_.push(environment);
 categories_.push(spells);
+categories_.push(travels);
 categories_.push(rulebooks);
 
 function Body() {
