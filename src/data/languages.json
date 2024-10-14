@@ -1,0 +1,147 @@
+{
+    "border_color": "Purple ",
+    "name": "<i className='bi bi-chat-dots-fill'></i> Языки",
+    "description": "",
+    "data_other": [
+        {
+            "name": "Общие языки",
+            "description": "",
+            "data": [
+                {
+                    "name": "Общий",
+                    "name_": "Общий",
+                    "icon": "./language-icons/human.svg",
+                    "shortinfo": "Люди",
+                    "page": "КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Люди и все разумные расы поверхности.</div> <div><b>Письменность: </b> Общая. </div> </div>"
+                },
+                {
+                    "name": "Дварфийский",
+                    "name_": "Дварфийский",
+                    "icon": "./language-icons/dwarf.svg",
+                    "shortinfo": "Дварфы",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Дварфы.</div> <div><b>Письменность: </b> Дварфская. </div> </div>"
+                },
+                {
+                    "name": "Эльфийский",
+                    "name_": "Эльфийский",
+                    "icon": "./language-icons/halfelf.svg",
+                    "shortinfo": "Эльфы",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Эльфы.</div> <div><b>Письменность: </b> Эльфийская. </div> </div>"
+                },
+                {
+                    "name": "Великаний",
+                    "name_": "Великаний",
+                    "icon": "./language-icons/ogre.svg",
+                    "shortinfo": "Огры и великаны",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Огры и Великаны.</div> <div><b>Письменность: </b> Дварфская. </div> </div>"
+                },
+                {
+                    "name": "Гномий",
+                    "name_": "Гномий",
+                    "icon": "./language-icons/gnome.svg",
+                    "shortinfo": "Гномы",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Гномы.</div> <div><b>Письменность: </b> Дварфская. </div> </div>"
+                },
+                {
+                    "name": "Гоблинский",
+                    "name_": "Гоблинский",
+                    "icon": "./language-icons/goblin-head.svg",
+                    "shortinfo": "Гоблинойды",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Гоблины, Медвежатники, Кобольды.</div> <div><b>Письменность: </b> Дварфская. </div> </div>"
+                },
+                {
+                    "name": "Полуросликов",
+                    "name_": "Полуросликов",
+                    "icon": "./language-icons/gnome.svg",
+                    "shortinfo": "Полурослики",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Полурослики.</div> <div><b>Письменность: </b> Общая. </div> </div>"
+                },
+                {
+                    "name": "Орочий",
+                    "name_": "Орочий",
+                    "icon": "./language-icons/halforc.svg",
+                    "shortinfo": "Орки",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Орки.</div> <div><b>Письменность: </b> Дварфская. </div> </div>"
+                }
+            ]
+        },
+        {
+            "name": "Экзотические языки",
+            "description": "Пока искатели приключений путешествуют по подземелью или пустошам, им нужно искать угрозы, а некоторые персонажи могут выполнять другие задачи для облегчения путешествия.",
+            "data": [
+                {
+                    "name": "Бездны",
+                    "name_": "Бездны",
+                    "icon": "./language-icons/imp.svg",
+                    "shortinfo": "Демоны",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Демоны.</div> <div><b>Письменность: </b> Инфернальная. </div> </div>"
+                },
+                {
+                    "name": "Небесный",
+                    "name_": "Небесный",
+                    "icon": "./language-icons/angel-wings.svg",
+                    "shortinfo": "Небожители",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Небожители.</div> <div><b>Письменность: </b> Небесная. </div> </div>"
+                },
+                {
+                    "name": "Драконий",
+                    "name_": "Драконий",
+                    "icon": "./language-icons/dragon-head.svg",
+                    "shortinfo": "Драконы",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Драконы, драконорождённые.</div> <div><b>Письменность: </b> Драконья. </div> </div>"
+                },
+                {
+                    "name": "Глубинная речь",
+                    "name_": "Глубинная речь",
+                    "icon": "./language-icons/squid.svg",
+                    "shortinfo": "Иллитиды",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Иллитиды, злобоглазы.</div> <div><b>Письменность: </b> --- </div> </div>"
+                },
+                {
+                    "name": "Инфернальный",
+                    "name_": "Инфернальный",
+                    "icon": "./language-icons/diablo-skull.svg",
+                    "shortinfo": "Дьяволы",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Дьяволы.</div> <div><b>Письменность: </b> Инфернальная. </div> </div>"
+                },
+                {
+                    "name": "Первичный",
+                    "name_": "Первичный",
+                    "icon": "./language-icons/ifrit.svg",
+                    "shortinfo": "Элементали",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b>  Элементали.</div> <div><b>Письменность: </b> Дварфская. </div> </div>"
+                },
+                {
+                    "name": "Сильван",
+                    "name_": "Сильван",
+                    "icon": "./language-icons/fairy.svg",
+                    "shortinfo": "Фейские существа",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b> Фейские существа.</div> <div><b>Письменность: </b> Эльфийская. </div> </div>"
+                },
+                {
+                    "name": "Подземный",
+                    "name_": "Подземный",
+                    "icon": "./language-icons/stalagtite.svg",
+                    "shortinfo": "Жители Подземья",
+                    "page": " КИ, стр. 123",
+                    "description": "<div className='h6 each-line'> <div><b>Типичный представитель: </b>  Дроу, Дуэргары и Глубинные гномы.</div> <div><b>Письменность: </b>  Эльфийская. </div> </div>"
+                }
+            ]
+        }
+    ]
+}
