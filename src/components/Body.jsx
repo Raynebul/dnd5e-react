@@ -20,6 +20,7 @@ import environment from "../data/environment.json";
 import spells from "../data/spells.json";
 import travels from "../data/travels.json"
 import languages from "../data/languages.json"
+import multiclasses from "../data/multiclasses.json"
 
 import rulebooks from "../data/rulebooks.json";
 import Category from "./Category.jsx";
@@ -47,6 +48,7 @@ categories_.push(environment);
 categories_.push(spells);
 categories_.push(travels);
 categories_.push(languages);
+categories_.push(multiclasses);
 categories_.push(rulebooks);
 
 function Body() {
