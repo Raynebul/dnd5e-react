@@ -25,6 +25,13 @@
     $color-stop: 75%,
     $end-color: $end-color
   );
+  .btn-dice {
+    --bs-btn-bg: #{$fg-color};
+    --bs-btn-hover-bg: $fg-color !important;
+    &:hover {
+      background-color: #{$hover-color};
+    }
+  }
   .btn-dnd {
     --bs-btn-bg: #{$fg-color};
     --bs-btn-hover-bg: $fg-color !important;
