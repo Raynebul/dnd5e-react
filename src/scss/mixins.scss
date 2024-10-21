@@ -66,7 +66,13 @@
     --bs-card-title-color: #{$font-color};
     --bs-card-cap-color: #{$font-color};
   }
-
+  .input-dnd {
+    color-scheme: dark !important;
+    background-color: #{$fg-color} !important;
+    border-color: #{$border-color} !important;
+    height: 4rem;
+    width: 4rem;
+  }
   .list-group-item {
     background-color: #{$fg-color};
     -webkit-transition: background-image 2s 0.5s;

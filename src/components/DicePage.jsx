@@ -6,38 +6,49 @@ function DicePage(props) {
 
   const [history, setHistory] = useState([]);
 
-  const RollTheDice = (dice) => {
+  const RollTheDice = (dice, amount) => {
     let roll=0;
-    switch(dice) {
-      case "d4": {
-        roll = Math.floor(Math.random() * 4) + 1;
-        break;
+    let textRoll='';
+    for(let i = 0; i < amount; i++) {
+      if(i !== 0) {
+        textRoll+="+"
       }
-      case "d6": {
-        roll = Math.floor(Math.random() * 6) + 1;
-        break;
+      let number = 0
+      switch(dice) {
+        case "d4": {
+          number = Math.floor(Math.random() * 4) + 1;
+          break;
+        }
+        case "d6": {
+          number = Math.floor(Math.random() * 6) + 1;
+          break;
+        }
+        case "d8": {
+          number = Math.floor(Math.random() * 8) + 1;
+          break;
+        }
+        case "d10": {
+          number = Math.floor(Math.random() * 10) + 1;
+          break;
+        }
+        case "d12": {
+          number = Math.floor(Math.random() * 12) + 1;
+          break;
+        }
+        case "d20": {
+          number = Math.floor(Math.random() * 20) + 1;
+          break;
+        }
+        default: {
+          break;
+        }
       }
-      case "d8": {
-        roll = Math.floor(Math.random() * 8) + 1;
-        break;
-      }
-      case "d10": {
-        roll = Math.floor(Math.random() * 10) + 1;
-        break;
-      }
-      case "d12": {
-        roll = Math.floor(Math.random() * 12) + 1;
-        break;
-      }
-      case "d20": {
-        roll = Math.floor(Math.random() * 20) + 1;
-        break;
-      }
-      default: {
-        break;
-      }
+      roll += number
+      textRoll += String(number)
     }
-    setHistory([...history, {roll: roll, dice: dice}])
+    if(amount !== 1)
+      textRoll += "=" + roll;
+    setHistory([...history, {roll: textRoll, dice: dice}])
   }
 
   return (
